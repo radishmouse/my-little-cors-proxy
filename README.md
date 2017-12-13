@@ -2,7 +2,7 @@
 # My Little CORS Proxy
 
 A tiny workaround for working with remote APIs that don't stamp 
-the responses with `Access-Control-Allow-Origin`.
+the responses with a relaxed `Access-Control-Allow-Origin`.
 
 ## Requirements:
 
@@ -11,12 +11,14 @@ the responses with `Access-Control-Allow-Origin`.
 ## To set up:
 
 - clone this repo
-- `cd` into the cloned directory
+- `cd my-little-cors-proxy`
 - run `npm install`
 
 ## To run:
 
-`npm start`
+In your terminal, `cd` into the cloned repo, then run `npm start`.
+
+You should see a message that the proxy is starting up.
 
 
 ## To use:
