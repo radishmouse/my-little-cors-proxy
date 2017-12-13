@@ -11,4 +11,5 @@ app.use('/', function(req, res) {
   req.pipe(request(url)).pipe(res);
 });
 
-app.listen(process.env.PORT || 7000);
+app.listen(process.env.PORT || 3000);
+console.log(`Starting my little cors proxy on http://localhost:${process.env.PORT || 3000}`)
